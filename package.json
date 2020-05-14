@@ -1,0 +1,23 @@
+{
+  "name": "@haiku/custom-prefabs-example",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "diez compile",
+    "hot": "diez hot",
+    "extract": "diez extract"
+  },
+  "dependencies": {
+    "@diez/engine": "^10.5.2",
+    "@diez/prefabs": "^10.5.2"
+  },
+  "devDependencies": {
+    "@diez/compiler-core": "^10.5.2",
+    "@diez/extractors": "^10.5.2",
+    "@diez/stdlib": "^10.5.2",
+    "@types/color-convert": "^1.9.0",
+    "color-convert": "^2.0.1",
+    "diez": "^10.5.2",
+    "typescript": "^3.7.2"
+  }
+}

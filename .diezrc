@@ -1,0 +1,10 @@
+{
+  "designs": {
+    "services": []
+  },
+  "bindings": {
+    ".:CustomColorFromScratch": {
+      "web": "./node_modules/@diez/stdlib/lib/bindings/Color/web"
+    }
+  }
+}
